@@ -1,36 +1,41 @@
 # DataCo Supply Chain Analysis
-**Tool:** Power BI | **Dataset:** DataCo Smart Supply Chain (Kaggle)
+**Tool:** Power BI | **Dataset:** DataCo Smart Supply Chain (Kaggle) | **Status:**  In Progress
 
 ## Business Problem
-DataCo Global needed to understand why a significant portion of their orders 
-were arriving late, which markets and shipping modes were most affected, 
-and where profitability was being lost across their global supply chain.
+DataCo Global needed to understand why a significant portion of their orders were arriving late, which markets and shipping modes were most affected, and where profitability was being lost across their global supply chain operation.
 
 ## Key Findings
-- **54.8%** of all orders arrive late — concentrated in First Class shipping (highest late delivery rate)
-- Late delivery rate is consistent across all global markets (~50%), suggesting 
-  a systemic issue with delivery time estimation rather than a regional logistics problem
+
+**Logistics:**
+- 54.8% of all orders arrive late, which is the central finding of this analysis
+- First Class shipping has the highest late delivery rate, counterintuitive for a premium tier
+- The problem is consistent across all global markets (~50%), suggesting systemic delivery time misestimation rather than a regional logistics failure
 - Q4 shows the highest late delivery rate, coinciding with peak sales season
 
+**Profitability:**
+- Fan Shop leads in total profit (~$2M) but Fitness and Outdoors have superior profit margins per unit sold
+- Fan Shop is the most capital-efficient department: higher margin despite lower sales volume than Fitness
+- Europe and LATAM are the most profitable markets globally
+- Africa shows the lowest profit contribution, attributed to infrastructure and customs barriers
+
 ## Dashboard Pages
-| Page | Business Question |
-|------|------------------|
-| Logistics Performance | Where and why are deliveries failing? |
-| Profitability | Which products and markets are actually profitable? |
-| Sales & Products | What sells most and where? |
-| Customer Analysis | Who buys and how do they behave? |
+| Page | Business Question | Status |
+|------|------------------|--------|
+| Logistics Performance | Where and why are deliveries failing? | ✅ Complete |
+| Profitability | Which products and markets are actually profitable? | ✅ Complete |
+| Sales and Products | What sells most and where? | ⬜ Pending |
+| Customer Analysis | Who buys and how do they behave? | ⬜ Pending |
 
 ## Data Model
-Star schema with 1 fact table and 4 dimension tables:
+Star schema with 1 fact table and 4 dimension tables built in Power BI:
 - **Fact_Orders** — 180,519 transactions
 - **Dim_Product** — 118 unique products (Department → Category → Product hierarchy)
-- **Dim_Geography** — Global markets (Market → Region → Country → State → City hierarchy)
-- **Dim_Date** — 2015–2018 date table with time intelligence
+- **Dim_Geography** — Global markets with combined key (Market → Region → Country → State → City hierarchy)
+- **Dim_Date** — 2015–2018 custom date table with time intelligence
 - **Dim_Customer** — Customer segments and locations
 
 ## DAX Measures
-13 custom measures including Late Delivery Rate %, Profit Margin %, 
-Shipping Delay, and Avg Order Value.
+13 custom measures organized across 4 business areas: Sales and Products, Profitability, Logistics Performance, and Customer Analysis.
 
-## Status
-🚧 In progress — Logistics Performance page complete
+## Tools
+Power BI Desktop | DAX | Power Query | Git | GitHub
