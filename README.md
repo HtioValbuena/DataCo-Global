@@ -57,8 +57,6 @@ DataCo Global needed to understand why a significant portion of their orders wer
 | Sales and Products | What sells most and where? | ✅ Complete |
 | Customer Analysis | Who buys and how do they behave? | ✅ Complete |
 
-## Status
-✅ Dashboard complete — design and GitHub documentation pending
 
 ## Data Model
 Star schema with 1 fact table and 4 dimension tables built in Power BI:
