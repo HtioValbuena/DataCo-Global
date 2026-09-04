@@ -4,19 +4,24 @@
 ## Business Problem
 DataCo Global needed to understand why a significant portion of their orders were arriving late, which markets and shipping modes were most affected, and where profitability was being lost across their global supply chain operation.
 
+
 ## Key Findings
 
-**Logistics:**
+**Logistics Performance:**
 - 54.8% of all orders arrive late, which is the central finding of this analysis
 - First Class shipping has the highest late delivery rate, counterintuitive for a premium tier
 - The problem is consistent across all global markets (~50%), suggesting systemic delivery time misestimation rather than a regional logistics failure
 - Q4 shows the highest late delivery rate, coinciding with peak sales season
+
+![Logistics Performance](logistics-performance.png)
 
 **Profitability:**
 - Fan Shop leads in total profit (~$2M) but Fitness and Outdoors have superior profit margins per unit sold
 - Fan Shop is the most capital-efficient department: higher margin despite lower sales volume than Fitness
 - Europe and LATAM are the most profitable markets globally
 - Africa shows the lowest profit contribution, attributed to infrastructure and customs barriers
+
+![Profitability](profitability.png)
 
 **Sales and Products:**
 - Fan Shop leads total sales at ~$20M, nearly double Apparel despite Apparel 
@@ -27,6 +32,9 @@ DataCo Global needed to understand why a significant portion of their orders wer
 - Fitness moves the highest unit volume (~80K) but at lower price points, 
   confirming its role as a high-volume, low-margin department
 
+![Sales and Products](sales-products.png)
+
+
 **Customer Analysis:**
 - Consumer segment leads in both orders and sales, with Corporate and 
   Home Office following proportionally
@@ -36,6 +44,10 @@ DataCo Global needed to understand why a significant portion of their orders wer
   as a separate country in the dataset
 - Debit is the dominant payment method at 38.54%, followed by bank transfer 
   at 27.49%
+  
+**Customer Analysis**
+![Customer Analysis](customer-analysis.png)
+
 
 ## Dashboard Pages
 | Page | Business Question | Status |
