@@ -27,13 +27,26 @@ DataCo Global needed to understand why a significant portion of their orders wer
 - Fitness moves the highest unit volume (~80K) but at lower price points, 
   confirming its role as a high-volume, low-margin department
 
+**Customer Analysis:**
+- Consumer segment leads in both orders and sales, with Corporate and 
+  Home Office following proportionally
+- Late Delivery Rate is virtually identical across all segments (~54-55%), 
+  confirming the delivery problem is systemic rather than segment-specific
+- The US leads in customer orders, followed by Puerto Rico which is treated 
+  as a separate country in the dataset
+- Debit is the dominant payment method at 38.54%, followed by bank transfer 
+  at 27.49%
+
 ## Dashboard Pages
 | Page | Business Question | Status |
 |------|------------------|--------|
 | Logistics Performance | Where and why are deliveries failing? | ✅ Complete |
 | Profitability | Which products and markets are actually profitable? | ✅ Complete |
 | Sales and Products | What sells most and where? | ✅ Complete |
-| Customer Analysis | Who buys and how do they behave? | ⬜ Pending |
+| Customer Analysis | Who buys and how do they behave? | ✅ Complete |
+
+## Status
+✅ Dashboard complete — design and GitHub documentation pending
 
 ## Data Model
 Star schema with 1 fact table and 4 dimension tables built in Power BI:
