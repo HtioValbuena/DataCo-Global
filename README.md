@@ -18,12 +18,21 @@ DataCo Global needed to understand why a significant portion of their orders wer
 - Europe and LATAM are the most profitable markets globally
 - Africa shows the lowest profit contribution, attributed to infrastructure and customs barriers
 
+**Sales and Products:**
+- Fan Shop leads total sales at ~$20M, nearly double Apparel despite Apparel 
+  moving more units — Fan Shop sells at higher price points
+- The US leads total orders by a significant margin, followed by France and Mexico
+- Sales grew consistently from 2015 to 2017, with 2018 showing a sharp drop 
+  likely reflecting incomplete data for that year
+- Fitness moves the highest unit volume (~80K) but at lower price points, 
+  confirming its role as a high-volume, low-margin department
+
 ## Dashboard Pages
 | Page | Business Question | Status |
 |------|------------------|--------|
 | Logistics Performance | Where and why are deliveries failing? | ✅ Complete |
 | Profitability | Which products and markets are actually profitable? | ✅ Complete |
-| Sales and Products | What sells most and where? | ⬜ Pending |
+| Sales and Products | What sells most and where? | ✅ Complete |
 | Customer Analysis | Who buys and how do they behave? | ⬜ Pending |
 
 ## Data Model
