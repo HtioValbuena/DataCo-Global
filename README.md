@@ -45,7 +45,7 @@ DataCo Global needed to understand why a significant portion of their orders wer
 - Debit is the dominant payment method at 38.54%, followed by bank transfer 
   at 27.49%
   
-**Customer Analysis**
+
 ![Customer Analysis](Customer-Analysis.png)
 
 
