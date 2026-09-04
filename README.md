@@ -13,7 +13,7 @@ DataCo Global needed to understand why a significant portion of their orders wer
 - The problem is consistent across all global markets (~50%), suggesting systemic delivery time misestimation rather than a regional logistics failure
 - Q4 shows the highest late delivery rate, coinciding with peak sales season
 
-![Logistics Performance](logistics-performance.png)
+![Logistics Performance](Logistic_Performance.png)
 
 **Profitability:**
 - Fan Shop leads in total profit (~$2M) but Fitness and Outdoors have superior profit margins per unit sold
@@ -21,7 +21,7 @@ DataCo Global needed to understand why a significant portion of their orders wer
 - Europe and LATAM are the most profitable markets globally
 - Africa shows the lowest profit contribution, attributed to infrastructure and customs barriers
 
-![Profitability](profitability.png)
+![Profitability](Profitability.png)
 
 **Sales and Products:**
 - Fan Shop leads total sales at ~$20M, nearly double Apparel despite Apparel 
@@ -32,7 +32,7 @@ DataCo Global needed to understand why a significant portion of their orders wer
 - Fitness moves the highest unit volume (~80K) but at lower price points, 
   confirming its role as a high-volume, low-margin department
 
-![Sales and Products](sales-products.png)
+![Sales and Products](Sales-Product.png)
 
 
 **Customer Analysis:**
@@ -46,7 +46,7 @@ DataCo Global needed to understand why a significant portion of their orders wer
   at 27.49%
   
 **Customer Analysis**
-![Customer Analysis](customer-analysis.png)
+![Customer Analysis](Customer-Analysis.png)
 
 
 ## Dashboard Pages
